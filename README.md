@@ -13,3 +13,4 @@
    Replace the content of cloud_name, api_key and api_secret with your own credentials from Cloudnairy
 6. NOTE!!! In your frontend, change settings for student-portfolio/student_frontend/src/pages/contact.js, the settings for form action must be specifically be yours that you recieved from fromspree
 7. In the frontend run `gatsby develop`
+8. To use the git make file, please ensure that there are only tabs and no spaces. You can control this with the following add-on "Space Cadet"
