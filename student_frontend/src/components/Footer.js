@@ -3,8 +3,8 @@ import SocialLinks from "../constants/socialLinks"
 import { FooterWrapper, FooterContent } from "../elements/FooterElements"
 const Footer = () => {
   return (
-    <FooterWrapper className="footer">
-      <FooterContent className="footer-content">
+    <FooterWrapper>
+      <FooterContent>
         <SocialLinks styleClass="footer-links"></SocialLinks>
         <h4>
           copyright&copy; {new Date().getFullYear()} | &nbsp;

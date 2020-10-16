@@ -8,7 +8,7 @@ export const FooterWrapper = styled.footer`
   place-items: center;
   h4 {
     margin-top: 0.5rem;
-    color: var(--clr-white);
+    color: black;
     font-weight: normal;
     text-transform: uppercase;
   }
@@ -20,10 +20,10 @@ export const FooterWrapper = styled.footer`
 `
 export const FooterContent = styled.div`
   span {
-    color: yellowgreen;
+    color: black;
   }
   .social-link {
-      color: white;
+      color: black;
       &:hover {
       color: yellowgreen;
     }

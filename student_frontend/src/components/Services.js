@@ -9,7 +9,7 @@ import {
 const Services = () => {
   return (
     <Section>
-      <Title title="Tjänster" />
+      <Title title="Letar efter" />
       <SectionCenter className="section-center services-center">
         {services.map(service => {
           //  destructure

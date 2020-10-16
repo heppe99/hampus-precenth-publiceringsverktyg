@@ -37,50 +37,18 @@ const Hero = () => {
           <h1>Jag är Hampus</h1>
           <div className="underline"></div>
           <h4>Studernade på TUC Sweden linköping</h4>
-          - 🔭 I’m currently working on my own Portfolio site
+          - 🔭 Jobbar på massa spännande projekt!
           <br />
-          - 🌱 I’m currently learning React, Gatsby, GraphQL and Strapi
+          - 🌱 Lär mig just nu C# Balzor
           <br />
-          - 🤔 I’m looking for help with anything frontend :)
+          - 🤔 Jag behöver hjälp med frontend!
           <br />
-          - 💬 Ask me about Rhodesian Ridgebacks
+          - 💬 Fråga mig något om bilar ;)
+          
           <br />
-          - 😄 Pronouns: Inquisitive, break the mold.. <br />- 💜{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://strapi.io/documentation/v3.x/getting-started/introduction.html"
-          >
-            Strapi
-          </a>
-          ,{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://reactjs.org/docs/getting-started.html"
-          >
-            React
-          </a>
-          ,{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.gatsbyjs.org/docs/"
-          >
-            Gatsby
-          </a>{" "}
-          ,{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://styled-components.com/docs"
-          >
-            Styled Components
-          </a>
+          - ⚡ Jag gillar att sladda med bilar :D
           <br />
-          - ⚡ Fun fact: I used to fly planes
-          <br />
-          - 📫 How to reach me: use the link below :)
+          - 📫Kontakat mig här nedan! :)
           <br />
           <Link to="/contact" className="btn">
             kontakta mig

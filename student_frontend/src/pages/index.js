@@ -18,14 +18,14 @@ export default ({ data }) => {
       <Hero />
       <Services />
       <Jobs />
-      <Projects projects={projects} title="projekt i fokus" showLink />
+      <Projects projects={projects} title="Arbetsprov" showLink />
       <Blogs blogs={blogs} title="Senaste artiklar" showLink />
     </Layout>
   )
 }
 export const query = graphql`
   {
-    allStrapiProjects(filter: { featured: { eq: true } }) {
+    allStrapiProjects(filter: { featured: { eq: true } }, limit: 3) {
       nodes {
         github
         id

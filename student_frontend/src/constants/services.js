@@ -4,19 +4,19 @@ export default [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Backend",
+    text: `Jag vill utvecklas inom backendprogrammering och söker mig till företag som kan hjälpa mig uppnå det.`,
   },
   {
     id: 2,
     icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Frontend",
+    text: `Jag söker mig till frontendföretag då jag vill utvecklas inom ett område jag inte är så vass på.`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Auth",
+    text: `Söker mig till företag som kan hjälpa mig utvecklas inom säkerhetsfrågan.`,
   },
 ]

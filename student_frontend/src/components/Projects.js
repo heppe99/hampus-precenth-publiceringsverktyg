@@ -8,9 +8,9 @@ import {
 
 const Projects = ({ projects, title, showLink }) => {
   return (
-    <SectionProjects className="section projects">
+    <SectionProjects >
       <Title title={title} />
-      <SectionCenter className="section-center projects-center">
+      <SectionCenter >
         {projects.map((project, index) => {
           return <Project key={project.id} index={index} {...project} />
         })}
